@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>34 : How to Style Card using CSS</title>
+    <style>
+        .card {
+            width: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 1px 1px 4px black;
+        }
+
+        .img-style {
+            width: 100%
+        }
+        .card-body{
+            padding: 5px;
+            background-color: brown;
+        }
+        .card-body .card-title{
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+       }
+       .card-desc{
+        line-height: 1.5;
+        text-align: justify;
+        color: white;
+       }
+       .card:hover{
+        box-shadow: 6px 6px 6px rgb(220, 164, 164);
+       }
+       .card-container{
+        box-sizing: border-box;
+        display: flex;
+        background-color: aqua;
+        padding: 20px 10px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       }
+    </style>
+</head>
+
+<body>
+    <div class="card-container">
+        <div class="card">
+            <img class="img-style"
+                src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2019/07/python.jpg?w=1024&ssl=1" alt="">
+            <div class="card-body">
+                <div class="card-title">
+                  Python Programming
+                </div>
+                <div class="card-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat provident pariatur consectet
+                        exercitationem ab aperiam suscipit reiciendiserror ipsum laborum adipisci, quibusdam non facilis!
+                        Sed, vitae voluptates eos tempore nulla maiores praesentium nesciunt velit soluta ipsa assumenda,
+                        possimus nemo placeat odio iure, expedita quod doloribus porro similique eveniet repellat Beatae!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style"
+                src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2019/07/python.jpg?w=1024&ssl=1" alt="">
+            <div class="card-body">
+                <div class="card-title">
+                  Python Programming
+                </div>
+                <div class="card-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat provident pariatur consectet
+                        exercitationem ab aperiam suscipit reiciendiserror ipsum laborum adipisci, quibusdam non facilis!
+                        Sed, vitae voluptates eos tempore nulla maiores praesentium nesciunt velit soluta ipsa assumenda,
+                        possimus nemo placeat odio iure, expedita quod doloribus porro similique eveniet repellat Beatae!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style"
+                src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2019/07/python.jpg?w=1024&ssl=1" alt="">
+            <div class="card-body">
+                <div class="card-title">
+                  Python Programming
+                </div>
+                <div class="card-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat provident pariatur consectet
+                        exercitationem ab aperiam suscipit reiciendiserror ipsum laborum adipisci, quibusdam non facilis!
+                        Sed, vitae voluptates eos tempore nulla maiores praesentium nesciunt velit soluta ipsa assumenda,
+                        possimus nemo placeat odio iure, expedita quod doloribus porro similique eveniet repellat Beatae!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style"
+                src="https://i0.wp.com/www.studywithanis.com/wp-content/uploads/2019/07/python.jpg?w=1024&ssl=1" alt="">
+            <div class="card-body">
+                <div class="card-title">
+                  Python Programming
+                </div>
+                <div class="card-desc">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat provident pariatur consectet
+                        exercitationem ab aperiam suscipit reiciendiserror ipsum laborum adipisci, quibusdam non facilis!
+                        Sed, vitae voluptates eos tempore nulla maiores praesentium nesciunt velit soluta ipsa assumenda,
+                        possimus nemo placeat odio iure, expedita quod doloribus porro similique eveniet repellat Beatae!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class and Pseudo element (part-1)</title>
+    <style>
+        a:hover{
+            color: green;
+        }
+        .contact:hover{
+            color:red;
+        }
+        input:hover{
+            background-color: rgb(116, 234, 116);
+        }
+        .email:focus{
+            background-color: rgb(213, 38, 38);
+        }
+        table,tr,td,th{
+            border: 1px solid black;
+        }
+        tr:nth-child(odd){
+            background-color: rgb(57, 83, 202);
+        }
+        p:hover{
+            background-color: chartreuse;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a class="contact" href="#">Contact</a><p>
+    <input type="text" placeholder="Enter your name"><p>
+        <input class="email" type="email" name="" id="">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Maruf</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <td>Muhit</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>nai</td>
+                <td>06</td>
+            </tr>
+        </table>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam obcaecati non tenetur in nam enim ipsum, repellendus ad qui maiores ratione, repellendus dignissimos natus reprehenderit! Modi, est!</p>
+</body>
+</html>

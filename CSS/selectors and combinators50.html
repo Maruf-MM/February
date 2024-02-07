@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors and combinators</title>
+    <style>
+        h1, h2, #para {
+            background-color: aqua;
+        }
+
+        #para1 {
+            background-color: blueviolet;
+        }
+
+        .para2 {
+            background-color: coral;
+        }
+
+        .para33 {
+            text-align: center;
+            background-color: darkcyan;
+        }
+
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        div > p {
+            background-color: crimson;
+        }
+        div +p{
+            background-color: black;
+        }
+        div ~p{
+            color:red
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is Heading</h1>
+    <p id="para">This is the Paragraph</p>
+    <p id="para1">This is paragraph 1</p>
+    <p class="para2">This is paragraph 2</p>
+    <p class="para3 para33">This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+    <div>
+        <p>This is paragraph 5</p>
+        <p>This is paragraph 5.1</p>
+        <section> <p>This is paragraph 6</p></section>
+    </div>
+        <p>This is paragraph</p>
+        <p>bchfxvhjfghdfufvbSDF</p>
+    
+</body>
+</html>

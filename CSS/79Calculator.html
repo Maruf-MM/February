@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+           text-align: center;
+           margin-top: 30px;
+
+        }
+        .card{
+            margin: 0 auto;
+            max-width: 350px;
+            text-align: center;
+            margin-top: 10px;
+            font-size: 0px;
+            border: 1px;
+            box-shadow: 2px 2px solid black;
+        }
+        .calc-head > input{
+          width: 82%;
+          height:80px;
+          text-align: right;
+          font-size: 30px;
+          font-weight: bold;
+          letter-spacing: 3px;
+        }
+        .calc-body .btn{
+            height: 60px;
+            width: 71px;
+            margin: 1px;
+            font-weight: bold;
+            font-size: 15px;
+            color: white;
+            background-color: #1f2326;
+        }
+        .btn.btnlast{
+            background-color: #5F4BB6;
+            box-shadow: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="card">
+        <div class="calc-head">
+            <input type="text" name="" id="">
+        </div>
+        <div class="calc-body">
+            <div>
+                <input class="btn" type="button" value="C">
+                <input class="btn" type="button" value="+/-">
+                <input class="btn" type="button" value="%">
+                <input class="btn btnlast" type="button" value="/">
+            </div>
+            <div>
+                <input class="btn" type="button" value="7">
+                <input class="btn" type="button" value="8">
+                <input class="btn" type="button" value="9">
+                <input class="btn btnlast" type="button" value="X">
+            </div>
+            <div>
+                <input class="btn" type="button" value="4">
+                <input class="btn" type="button" value="5">
+                <input class="btn" type="button" value="6">
+                <input class="btn btnlast" type="button" value="-">
+            </div>
+            <div>
+                <input class="btn" type="button" value="1">
+                <input class="btn" type="button" value="2">
+                <input class="btn" type="button" value="3">
+                <input class="btn btnlast" type="button" value="+">
+            </div>
+            <div>
+                <input class="btn" type="button" value="0">
+                <input class="btn" type="button" value=".">
+                <input class="btn" type="button" value="DEL">
+                <input style="background-color: orange;" class="btn" type="button" value="=">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

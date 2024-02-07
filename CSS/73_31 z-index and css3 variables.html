@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index and css3 variables</title>
+    <style>
+        :root{
+            --primary-color: brown;
+            --secondary-color:purple;
+        }
+        div{
+            height: 200px;
+            width: 200px;
+        }
+        .div1
+        {
+            background-color: var(--primary-color);
+            position: absolute;
+            z-index: 1;
+        }
+        .div2
+        {
+            background-color: var(--secondary-color,green);
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            /* z-index: 2; */
+        }
+        @media screen and (max-width: 500px)
+        {
+            :root{
+                --primary-color:black;
+                --secondary-color:green;
+            }            
+        }
+    </style>
+</head>
+<body>
+   <div class="div1"></div>
+   <div class="div2"></div>
+</body>
+</html>

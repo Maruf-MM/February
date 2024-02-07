@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 : box sizing and opacity</title>
+    <style>
+        .div1{
+            height: 400px;
+            width: 50%;
+            float: left;
+            background-color: red;
+            border: 10px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .div2{
+            float: left;
+            height: 400px;
+            width: 50%;
+            background-color: green;
+            border: 10px solid black;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        img{
+            width: 20%;
+            height: 300px;
+            opacity: 0.5;
+        }
+        img:hover{
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, iure velit minima cum vitae sunt id voluptate maxime voluptatibus repellendus esse alias officia rem cupiditate eius est incidunt aut minus!</p>
+    </div>
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque iure dolores maxime omnis quisquam, aliquid minima debitis nisi porro provident ut dicta, eveniet aut temporibus ipsa incidunt. Ducimus, magni nobis?</p>
+    </div>
+    <img src="/Images/book.jpg" alt="book image">
+</body>
+</html>

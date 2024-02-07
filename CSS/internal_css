@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>46</title>
+    <style type="text/css">
+        h1{
+            color: brown;
+            font-size: 50 px;
+        }
+        p{
+            color:chocolate;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>I love Bangladesh</h1>
+    <p>Lorem ipsum dolor sit amet consectetur aur nihil, omnis accusamus. Id, quam.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate maxime reiciendis vel quam, blanditiis odio
+        aspernatur numquam nam vero placeat, magnam nulla aliquid consequuntur. Quam omnis culpa quas error perferendis.
+    </p>
+</body>
+
+</html>

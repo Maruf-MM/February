@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout design | Flex box Layout</title>
+    <style>
+        .flex_container{
+            background-color: aquamarine;
+            display: flex;
+            /* flex-wrap: wrap;
+            flex-direction: column-reverse; */
+            flex-flow: wrap row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex_container > div{
+            font-size: 40px;
+            margin: 10px;
+            padding: 20px;
+            background-color:coral;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex_container">
+        <div class="div1">Div1</div>
+        <div class="div2">Div2</div>
+        <div class="div3">Div3</div>
+        <div class="div4">Div4</div>
+        <div class="div5">Div5</div>
+        <div class="div6">Div6</div>
+        <div class="div7">Div7</div>
+        <div class="div8">Div8</div>
+    </div>
+</body>
+</html>

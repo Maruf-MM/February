@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+    <style>
+        input {
+            margin-left: 2px;
+            width: 298px;
+            height: 71px;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            width: 71px;
+            height: 71px;
+            background-color: rgb(45, 45, 45);
+            color: white;
+        }
+
+        td:nth-child(4) {
+            background-color: rgb(108, 51, 199);
+        }
+
+        #last {
+            background-color: orange
+        }
+
+        td:hover {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="calculator">
+        <input class="input" type="number" name="" id="">
+        <table>
+            <tr>
+                <td>C</td>
+                <td>+/-</td>
+                <td>%</td>
+                <td>/</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td> &#x274C </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>.</td>
+                <td>DEL</td>
+                <td id="last">=</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

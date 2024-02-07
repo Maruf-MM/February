@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accessible_table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+
+        }
+
+        th,tr,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML TABLE</h1>
+    </header>
+    <main>
+        <table>
+            <caption>Students info</caption>
+            <colgroup>
+                <col span="2"style="background-color: aquamarine;">           
+            </colgroup>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">GPA</th>
+                </tr>
+                <tr scope="row">
+                    <td>101</td>
+                    <td>Maruf</td>
+                    <td>4.00</td>
+                </tr>
+                <tr scope="row">
+                    <td>102</td>
+                    <td>Munna</td>
+                    <td>5.00</td>
+                </tr>
+        </table>
+    </main>
+</body>
+</html>
